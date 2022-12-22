@@ -1,0 +1,85 @@
+*{
+	box-sizing: border-box; 
+}
+div{
+	width:400px;
+	height: 300px;
+	border:10px groove orange;
+	position:absolute;
+}
+.uno{
+	left:200px;
+	top:150px;
+	background: url(../img/navi1.jpg);
+	background-size: cover;
+	transform: rotate(10deg);
+}
+.dos{
+	right:200px;
+	top:150px;
+	height: 200px;
+	border-image-source: url(../img/fondo.png);
+  	border-image-slice: 15 fill;
+	padding: 20px;
+	text-align: center;
+	color:red;
+	font-size: 2em;
+	font-weight: bold;
+	padding-top: 70px;
+	position:fixed;
+}
+.tres{
+	left:500px;
+	top:350px;
+	background: url(../img/navi2.jpg);
+	background-size: cover;
+	transform: rotate(-10deg);
+}
+.cuatro{
+	top:350px;
+	background: url(../img/navi3.jpg);
+	background-size: cover;
+	z-index:6;
+}
+.cinco{
+	left:200px;
+	top:450px;
+	background: url(../img/navi4.jpg);
+	background-size: cover;
+	transform: rotate(-10deg);
+	z-index:5;
+}
+h1{
+	font-family: 'Comic Sans MS';
+	color:red;
+	background-color: rgb(192, 192, 241);
+	width: 40%;
+}
+body{
+	/*background: url(../img/fondo.jpg);*/
+	background-color: blanchedalmond;
+}
+/*fijo.html*/
+.box {
+	width: 100px;
+	height: 100px;
+	background: red;
+	color: white;
+	border:none;
+  }
+  
+  #one {
+	position: fixed;
+	top: 80px;
+	left: 10px;
+	background: blue;
+	border:none;
+  }
+  
+  .outer {
+	width: 500px;
+	height: 300px;
+	overflow: scroll;
+	padding-left: 150px;
+	border:none;
+  }
